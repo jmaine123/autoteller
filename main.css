@@ -1,0 +1,23 @@
+.right{
+  background-color: red;
+  height: 400px;
+  width:600px;
+  float: right;
+}
+
+.left{
+  float: left;
+  background-color: blue;
+  height: 400px;
+  width: 600px;;
+}
+
+.grid{
+  grid-template: 60% / 50% 50%;
+  grid-gap: 10px;
+}
+
+h1{
+  display: block;
+  text-align: center;
+}
