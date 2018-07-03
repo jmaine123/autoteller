@@ -9,15 +9,34 @@
   float: left;
   background-color: blue;
   height: 400px;
-  width: 600px;;
+  width: 600px;
 }
 
 .grid{
-  grid-template: 60% / 50% 50%;
+  grid-template: 60% / 30% 30%;
   grid-gap: 10px;
+  margin-top: 2px;
+}
+
+.grid div:nth-child(1){
+
+  background-color: blue;
+}
+
+.grid div:nth-child(2){
+  background-color: red;
 }
 
 h1{
   display: block;
   text-align: center;
+}
+
+.responsive{
+  width: 100%;
+}
+
+.image-container{
+  width: 50%;
+
 }
